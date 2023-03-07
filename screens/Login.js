@@ -52,12 +52,12 @@ export default function Login(props) {
     },
   });
   return (
-    <ImageBackground style={{ flex: 1 }} source={require('../assets/bg.jpg')}>
+    <>
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Image
+        {/* <Image
           style={{ height: 60 }}
           source={require('../assets/heartIcon.png')}
-        />
+        /> */}
       </View>
       <View style={{ flex: 2, alignItems: 'center' }}>
         <View style={{ width: '80%' }}>
@@ -112,7 +112,7 @@ export default function Login(props) {
               backgroundColor="#36609F"
               borderRadius={30}
               text="FACEBOOK"
-              isImage="facebook"
+              // isImage="facebook"
               imgheight={30}
               fontSize={17}
               fontWeight="bold"
@@ -127,7 +127,7 @@ export default function Login(props) {
               backgroundColor="#D93D2B"
               borderRadius={30}
               text="GOOGLE"
-              isImage="google"
+              // isImage="google"
               imgheight={35}
               fontSize={17}
               fontWeight="bold"
@@ -136,6 +136,6 @@ export default function Login(props) {
           </View>
         </View>
       </View>
-    </ImageBackground>
+    </>
   );
 }

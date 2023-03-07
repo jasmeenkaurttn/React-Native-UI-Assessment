@@ -1,7 +1,7 @@
 import {TouchableOpacity, Text, StyleSheet, Image} from 'react-native';
-import React, {useEffect} from 'react';
-import FacebookIcon from '../assets/fbIcon.png';
-import GoogleIcon from '../assets/googleIcon.png';
+import React from 'react';
+// import FacebookIcon from '../assets/fbIcon.png';
+// import GoogleIcon from '../assets/googleIcon.png';
 
 export default function Button(props) {
   const {
@@ -38,7 +38,7 @@ export default function Button(props) {
   });
   return (
     <TouchableOpacity style={styles.button} onPress={props.onPress}>
-      {isImage == 'facebook' && (
+      {/* {isImage == 'facebook' && (
         <>
           <Image
             style={{height: imgheight === null ? '' : imgheight}}
@@ -53,7 +53,7 @@ export default function Button(props) {
             source={GoogleIcon}
           />
         </>
-      )}
+      )} */}
       <Text style={styles.buttonText}>{props.text}</Text>
     </TouchableOpacity>
   );
