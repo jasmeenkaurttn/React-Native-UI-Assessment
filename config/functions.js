@@ -1,0 +1,1 @@
+export const isEmpty = (val) => !!(!val || val.length <= 0 || val == "");

@@ -9,7 +9,7 @@ import {
   Alert,
 } from 'react-native';
 import React, { useState } from 'react';
-import Button from '../components/Button';
+import Button from '../components/FilterButton';
 
 export default function Login(props) {
   const [username, setUsername] = useState("");

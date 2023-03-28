@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Home from '../screens/Home';
+import Home from '../screens/ProductDetail';
 import Profile from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();

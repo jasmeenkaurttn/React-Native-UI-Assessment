@@ -1,7 +1,7 @@
 import {View, Text} from 'react-native';
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import Home from '../screens/Home';
+import Home from '../screens/ProductDetail';
 import Settings from '../screens/Settings';
 import TabParent from '../screens/TabParent';
 const Drawer = createDrawerNavigator();
