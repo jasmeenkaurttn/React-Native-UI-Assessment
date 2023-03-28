@@ -1,4 +1,5 @@
 React Native Bootcamp Assignment
+
 Steps to run this project:
 1. npm install
 2. npx react-native start
